@@ -1,0 +1,66 @@
+.yellow-box{
+    width: 17px;
+    height: 22px;
+    border: 3px solid #acac11;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 99;
+    transition: .3s;
+    background-color: transparent;
+}
+.y-07{
+    left: 550px;
+    top:1075px;
+}
+.y-08{
+    left: 510px;
+    top:1074px;
+}
+.y-09{
+    left: 470px;
+    top:1057px;
+}
+.y-10{
+    left: 430px;
+    top:1032px;
+}
+.y-11{
+    left: 365px;
+    top:1030px;
+}
+.y-12{
+    left: 315px;
+    top:1035px;
+}
+.y-13{
+    left: 265px;
+    top:1035px;
+}
+.y-14{
+    left: 255px;
+    top:983px;
+}
+.y-15{
+    left: 255px;
+    top:933px;
+}
+.y-16{
+    left: 215px;
+    top:897px;
+}
+.y-17{
+    left: 165px;
+    top:845px;
+}
+.y-18{
+    left: 92px;
+    top:765px;
+}
+.y-19{
+    left: 50px;
+    top:725px;
+}
+.y-20{
+    left: 50px;
+    top:670px;
+}

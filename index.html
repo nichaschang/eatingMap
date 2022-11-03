@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/red.css">
+    <link rel="stylesheet" href="./css/blue.css">
+    <link rel="stylesheet" href="./css/green.css">
+    <link rel="stylesheet" href="./css/orange.css">
+    <link rel="stylesheet" href="./css/brown.css">
+    <link rel="stylesheet" href="./css/yellow.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js' integrity='sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==' crossorigin='anonymous'></script>
+    <script src="./js/store_info.js"></script>
+</head>
+<body>
+    <div class="result-msg"></div>
+    <div class="msg-alert flex-center">
+        <h3 class="title-msg"></h3>
+        <button class="blue-btn basic-btn">新增</button>
+        <button class="search-btn basic-btn">搜尋</button>
+        <button class="red-btn basic-btn">關閉</button>
+        
+            <div class="add-box">
+                <form method="post" action="http://127.0.0.1:3000/station/add_store">
+                    <div class="flex-center">
+                        <label for="station_name" class="bg-green add-station-title">新增商店名稱</label>
+                        <input type="text" name="store_name" id="store_name">
+                        <input type="hidden" name="station_name" id="target" value="">
+                        <button class="basic-btn green-btn" onclick="close_msg('add-box');">送出</button>
+                    </div>
+                </form>
+            </div>
+    </div>
+    <div class="basic-bg">
+        
+        <div class="red-boxes">
+            <div class="red-box r-28"></div>
+            <div class="red-box r-27"></div>
+            <div class="red-box r-26"></div>
+            <div class="red-box r-25"></div>
+            <div class="red-box r-24"></div>
+            <div class="red-box r-23"></div>
+            <div class="red-box r-22"></div>
+            <div class="red-box r-21"></div>
+            <div class="red-box r-20"></div>
+            <div class="red-box r-19"></div>
+            <div class="red-box r-18"></div>
+            <div class="red-box r-17"></div>
+            <div class="red-box r-16"></div>
+            <div class="red-box r-15"></div>
+            <div class="red-box r-14"></div>
+            <div class="red-box r-13"></div>
+            <div class="red-box r-12"></div>
+            <div class="red-box r-11"></div>
+            <div class="red-box r-10"></div>
+            <div class="red-box r-09"></div>
+            <div class="red-box r-08"></div>
+            <div class="red-box r-07"></div>
+            <div class="red-box r-06"></div>
+            <div class="red-box r-05"></div>
+            <div class="red-box r-04"></div>
+            <div class="red-box r-03"></div>
+            <div class="red-box r-02"></div>
+        </div>
+        <div class="blue-boxes">
+            <div class='blue-box bl-23'></div>
+            <div class='blue-box bl-22'></div>
+            <div class='blue-box bl-21'></div>
+            <div class='blue-box bl-20'></div>
+            <div class='blue-box bl-19'></div>
+            <div class='blue-box bl-18'></div>
+            <div class='blue-box bl-17'></div>
+            <div class='blue-box bl-16'></div>
+            <div class='blue-box bl-15'></div>
+            <div class='blue-box bl-14'></div>
+            <div class='blue-box bl-13'></div>
+            <div class='blue-box bl-12'></div>
+            <div class='blue-box bl-11'></div>
+            <div class='blue-box bl-10'></div>
+            <div class='blue-box bl-09'></div>
+            <div class='blue-box bl-08'></div>
+            <div class='blue-box bl-07'></div>
+            <div class='blue-box bl-06'></div>
+            <div class='blue-box bl-05'></div>
+            <div class='blue-box bl-04'></div>
+            <div class='blue-box bl-03'></div>
+            <div class='blue-box bl-02'></div>
+            <div class='blue-box bl-01'></div>
+        </div>
+        <div class="green-boxes">
+            <div class='green-box g-19'></div>
+            <div class='green-box g-18'></div>
+            <div class='green-box g-17'></div>
+            <div class='green-box g-16'></div>
+            <div class='green-box g-15'></div>
+            <div class='green-box g-14'></div>
+            <div class='green-box g-13'></div>
+            <div class='green-box g-12'></div>
+            <div class='green-box g-11'></div>
+            <div class='green-box g-10'></div>
+            <div class='green-box g-09'></div>
+            <div class='green-box g-08'></div>
+            <div class='green-box g-07'></div>
+            <div class='green-box g-06'></div>
+            <div class='green-box g-05'></div>
+            <div class='green-box g-04'></div>
+            <div class='green-box g-03'></div>
+            <div class='green-box g-02'></div>
+            <div class='green-box g-01'></div>
+        </div>
+        <div class="orange-boxes">
+            <div class='orange-box o-21'></div>
+            <div class='orange-box o-20'></div>
+            <div class='orange-box o-19'></div>
+            <div class='orange-box o-18'></div>
+            <div class='orange-box o-17'></div>
+            <div class='orange-box o-16'></div>
+            <div class='orange-box o-15'></div>
+            <div class='orange-box o-14'></div>
+            <div class='orange-box o-13'></div>
+            <div class='orange-box o-12'></div>
+            <div class='orange-box o-11'></div>
+            <div class='orange-box o-10'></div>
+            <div class='orange-box o-09'></div>
+            <div class='orange-box o-08'></div>
+            <div class='orange-box o-07'></div>
+            <div class='orange-box o-06'></div>
+            <div class='orange-box o-05'></div>
+            <div class='orange-box o-04'></div>
+            <div class='orange-box o-03'></div>
+            <div class='orange-box o-02'></div>
+            <div class='orange-box o-01'></div>
+            <div class='orange-box o-50'></div>
+            <div class='orange-box o-51'></div>
+            <div class='orange-box o-52'></div>
+            <div class='orange-box o-53'></div>
+            <div class='orange-box o-54'></div>
+        </div>
+        <div class="brown-boxes">
+            <div class='brown-box br-01'></div>
+            <div class='brown-box br-02'></div>
+            <div class='brown-box br-03'></div>
+            <div class='brown-box br-04'></div>
+            <div class='brown-box br-05'></div>
+            <div class='brown-box br-06'></div>
+            <div class='brown-box br-07'></div>
+            <div class='brown-box br-08'></div>
+            <div class='brown-box br-09'></div>
+            <div class='brown-box br-10'></div>
+            <div class='brown-box br-11'></div>
+            <div class='brown-box br-12'></div>
+            <div class='brown-box br-13'></div>
+            <div class='brown-box br-14'></div>
+            <div class='brown-box br-15'></div>
+            <div class='brown-box br-16'></div>
+            <div class='brown-box br-17'></div>
+            <div class='brown-box br-18'></div>
+            <div class='brown-box br-19'></div>
+            <div class='brown-box br-20'></div>
+            <div class='brown-box br-21'></div>
+            <div class='brown-box br-22'></div>
+            <div class='brown-box br-23'></div>
+            <div class='brown-box br-24'></div>
+        </div>
+        <div class="yellow-boxes">
+            <!-- <div class='yellow-box y-01'></div>
+            <div class='yellow-box y-02'></div>
+            <div class='yellow-box y-03'></div>
+            <div class='yellow-box y-04'></div>
+            <div class='yellow-box y-05'></div>
+            <div class='yellow-box y-06'></div> -->
+            <div class='yellow-box y-07'></div>
+            <div class='yellow-box y-08'></div>
+            <div class='yellow-box y-09'></div>
+            <div class='yellow-box y-10'></div>
+            <div class='yellow-box y-11'></div>
+            <div class='yellow-box y-12'></div>
+            <div class='yellow-box y-13'></div>
+            <div class='yellow-box y-14'></div>
+            <div class='yellow-box y-15'></div>
+            <div class='yellow-box y-16'></div>
+            <div class='yellow-box y-17'></div>
+            <div class='yellow-box y-18'></div>
+            <div class='yellow-box y-19'></div>
+            <div class='yellow-box y-20'></div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+    <script src="./js/button.js"></script>
+</body>
+</html>

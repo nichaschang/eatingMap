@@ -1,0 +1,86 @@
+.green-box{
+    width: 17px;
+    height: 22px;
+    border: 3px solid #228822;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 99;
+    transition: .3s;
+    background-color: transparent;
+}
+.g-19{
+    left:755px;
+    top:662px;
+}
+.g-18{
+    left:700px;
+    top:662px;
+}
+.g-17{
+    left:650px;
+    top:662px;
+}
+.g-16{
+    left:575px;
+    top:662px;
+}
+.g-15{
+    left:475px;
+    top:662px;
+}
+.g-14{
+    left:375px;
+    top:662px;
+}
+.g-13{
+    left:315px;
+    top:700px;
+}
+.g-12{
+    left:325px;
+    top:745px;
+}
+.g-11{
+    left:320px;
+    top:825px;
+}
+.g-10{
+    left:375px;
+    top:835px;
+}
+.g-09{
+    left:420px;
+    top:880px;
+}
+.g-08{
+    left:465px;
+    top:920px;
+}
+.g-07{
+    left:500px;
+    top:950px;
+}
+.g-06{
+    left:535px;
+    top:985px;
+}
+.g-05{
+    left:560px;
+    top:1030px;
+}
+.g-04{
+    left:570px;
+    top:1075px;
+}
+.g-03{
+    left:560px;
+    top:1130px;
+}
+.g-02{
+    left:560px;
+    top:1170px;
+}
+.g-01{
+    left:560px;
+    top:1210px;
+}

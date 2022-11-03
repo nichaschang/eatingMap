@@ -1,0 +1,165 @@
+:root{
+    --blue: #3377ee;
+    --green: #66aaaa;
+    --red: #e83232;
+    --grey: #eeeeee;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+body{
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color:var(--black);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*
+ personal className
+*/
+
+.add-box{
+    position: absolute;
+    background-color: var(--white);
+    width: 100%;
+    height: 100%;
+    border: 3px solid var(--green);
+    border-radius: 8px ;
+    box-shadow: 3px 5px 5px var(--grey);
+}
+
+.add-station-title{
+    width: 100%;
+    text-align: center;
+    color: var(--white);
+    letter-spacing: 8px;
+    padding-left: 8px;
+}
+
+.msg-alert{
+    width: 280px;
+    /* height: 50vh; */
+    height: 340px;
+    background: var(--white);
+    z-index: 999;
+    border: 2px solid var(--grey);
+    border-radius: 8px;
+    position: absolute;
+    top:calc(50vh);
+    left: calc(50vw - 180px);
+}
+
+.title-msg{
+    margin: 0px;
+    padding: 5px;
+}
+
+.result-msg{
+    padding: 3px 10px;
+    width: 280px;
+    height: 40vh;
+    background: var(--white);
+    z-index: 999;
+    border: 2px solid var(--grey);
+    border-radius: 8px;
+    position: absolute;
+    top:calc(50vh);
+    left: calc(50vw - 180px);
+}
+
+.result-msg ul{
+    font-size: 22px;
+    padding: 0;
+    text-align: center;
+    height: 70%;
+    overflow-y: scroll;
+    border: 3px solid var(--grey);
+    border-radius: 8px;
+}
+
+.result-msg li{
+    list-style-type: none;
+    padding: 15px 0;
+}
+
+.result-msg button{
+    font-weight:400;
+    color: var(--white);
+    text-align: center;
+    border-radius: 10px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#store_name{
+    margin: 15px 0;
+    padding: 5px 8px;
+    letter-spacing: 2px;
+    outline: none;
+    border: 2px solid var(--green);
+    border-radius: 8px;
+    width: 80%;
+}
+
+/* common css */
+.d-flex{
+    display: flex;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.basic-btn{
+    margin: 5px 15px;
+    padding-left: 50px;
+    letter-spacing: 50px;
+    width: 70%;
+    height: 15%;
+    font-weight:400;
+    color: var(--white);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.blue-btn{
+    background-color: var(--blue);
+    border: 3px solid var(--grey);   
+}
+
+.basic-bg{
+    background-image: url("../routemap2020.png");
+    width:960px;
+    height: 1286px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bg-green{
+    background-color: var(--green);
+}
+
+.green-btn{
+    background-color: var(--green);
+    border: 3px solid var(--grey);   
+}
+
+.search-btn{
+    background-color: var(--green);
+    border: 3px solid var(--grey);
+}
+
+.red-btn{
+    background-color: var(--red);
+    border: 3px solid var(--grey);
+}
